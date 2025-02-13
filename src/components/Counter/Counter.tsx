@@ -1,9 +1,14 @@
 // components/Counter/Counter.tsx
 
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "../../components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "../../components/ui/card";
 import { Minus, Plus, RotateCcw } from "lucide-react";
-import { useCounter } from "@/hooks/useCounter";
+import { useCounter } from "../../hooks/useCounter";
 import { motion, AnimatePresence } from "framer-motion";
 
 const RollingNumber = ({ number }: { number: number }) => {

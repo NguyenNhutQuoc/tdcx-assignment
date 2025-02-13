@@ -1,7 +1,7 @@
 // hooks/useCounter.ts
 
 import { useCallback, useEffect, useState } from "react";
-import { UseCounterProps, UseCounterReturn } from "@/types/counter";
+import { UseCounterProps, UseCounterReturn } from "../types/counter";
 
 const STORAGE_KEY = "counter";
 
